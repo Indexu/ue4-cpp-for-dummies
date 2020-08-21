@@ -1,0 +1,65 @@
+# Unreal output and temp folders
+
+ArchivedBuilds/
+Archives/
+Binaries/
+DerivedDataCache/
+Distributions/
+Intermediate/
+PackagedGame/
+Saved/
+
+Build/**/FileOpenOrder
+
+# Build tools and IDE temp files
+
+.gradle
+buildSrc/build
+
+fastlane/.env.gradle
+fastlane/README.md
+fastlane/report.xml
+
+*.opendb
+*.sdf
+*.sln
+.vs/
+.vscode/
+*.VC.db
+*.xcworkspace
+*.sublime-workspace
+*.ipa
+*.PackageVersionCounter
+*.mo
+*.sln.*.user
+.ruby-version
+sh.exe.stackdump
+*.code-workspace
+enc_temp_folder/
+
+# Static Data temp files
+
+StaticData/schemas/derived
+
+# Steam
+
+Scripts/ContentBuilder/builder/*
+!Scripts/ContentBuilder/builder/steamcmd.exe
+Scripts/ContentBuilder/output
+
+# IOS files
+
+!/Build
+/Build/*
+!/Build/IOS
+/Build/IOS/*
+!/Build/IOS/PakBlacklist-*.txt
+!/Build/IOS/Resources
+!/Build/IOS/PipelineCaches
+
+# Mac files
+
+!/Build/Mac
+/Build/Mac/*
+!/Build/Mac/Application.icns
+!/Build/Mac/PipelineCaches
