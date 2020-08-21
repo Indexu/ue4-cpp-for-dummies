@@ -31,4 +31,7 @@ int MyDummyClass::GetPrivateNum() const
 void MyDummyClass::SetPrivateNum(int newNum)
 {
     privateNum = newNum;
+
+    // Can also use 'this' keyword, which is a pointer to the current instance of this class
+    this->privateNum = newNum;
 }

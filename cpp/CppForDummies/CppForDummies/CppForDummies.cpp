@@ -233,6 +233,22 @@ void Flow()
         std::cout << "Flow - if - else" << std::endl;
     }
 
+    // Or operator ||
+    if (22 < 1 || 2 < 5)
+    {
+        std::cout << "Flow - if - true" << std::endl;
+    }
+
+    // And operator &&
+    if (22 < 1 && 2 < 5)
+    {
+        std::cout << "Flow - if - true" << std::endl;
+    }
+    else 
+    {
+        std::cout << "Flow - if - else" << std::endl;
+    }
+
     /*
      * Switch blocks can be thought of as a router
      * You feed it a variable and it will go into the case that it equals
